@@ -1,0 +1,8 @@
+mat=matrix(runif(25, min=201,max = 500),nrow=5)
+print(mat)
+mat=t(mat)
+print("Matrix Transposition: ")
+print(mat)
+print("Inverse of matrix: ")
+mat=solve(mat)
+print(mat)

@@ -1,0 +1,8 @@
+A=matrix(sample(1:99,9),nrow=3,ncol=3)
+B=matrix(sample(1:49,9),nrow=3,ncol=3)
+print("Matrix Multiplication: ")
+mul=matrix(A*B,nrow=3,ncol=3)
+print(mul)
+print("Matrix Addition:")
+add=matrix(A+B,nrow=3,ncol=3)
+print(add)
