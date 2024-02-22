@@ -1,0 +1,5 @@
+data<-read.csv("C:/Users/hp/Desktop/R_programs/data_csv.csv")
+print(data)
+average_salary=mean(data$salary)
+cat("Average of salary in data: ",average_salary)
+barplot(data$salary,names.arg = data$name,xlab = "names", ylab = "Salary", main ="Bar-Chart")
